@@ -2,6 +2,7 @@ package com.spring4all.scope;
 
 import com.spring4all.conditional.MacOsCondition;
 import com.spring4all.conditional.WindowCondition;
+import com.spring4all.factoryBean.ColorFactoryBean;
 import com.spring4all.imort.MyImportBeanRegistry;
 import com.spring4all.imort.MyImportSelector;
 import com.spring4all.pojo.Color;
@@ -43,5 +44,12 @@ public class Main2Config {
     @Bean("mac")
     public Student Student3(){
         return new Student("mac","zhejiang");
+    }
+
+
+    //使用FactoryBean
+    @Bean
+    public ColorFactoryBean colorFactoryBean(){
+        return new ColorFactoryBean();
     }
 }

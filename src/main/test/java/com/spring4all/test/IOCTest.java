@@ -9,6 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.core.env.Environment;
 
 import java.util.Map;
+import java.util.zip.CheckedOutputStream;
 
 /**
  * @program: spring-annotation
@@ -25,6 +26,11 @@ public class IOCTest {
         for(String item : beanDefinitionNames){
             System.out.println(item);
         }
+
+        Object colorFactoryBean = applicationContext.getBean("&colorFactoryBean");
+        Object colorFactoryBean2 = applicationContext.getBean("colorFactoryBean");
+        System.out.println(colorFactoryBean.getClass());
+        System.out.println("isEqual:"+ (colorFactoryBean==colorFactoryBean2));
     }
 
     @Test
