@@ -1,4 +1,4 @@
-package com.spring4all.pojo;
+package com.spring4all.dao;
 
 import org.springframework.stereotype.Component;
 

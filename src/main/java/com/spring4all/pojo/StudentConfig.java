@@ -1,5 +1,6 @@
 package com.spring4all.pojo;
 
+import com.spring4all.dao.StudentDao;
 import org.springframework.context.annotation.*;
 
 /**

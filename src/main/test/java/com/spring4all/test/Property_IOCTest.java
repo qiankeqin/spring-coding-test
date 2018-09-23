@@ -5,6 +5,7 @@ import com.spring4all.pojo.Student;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.core.env.Environment;
 
 /**
  * @program: spring-annotation
@@ -23,6 +24,10 @@ public class Property_IOCTest {
         }
 
         Student student = applicationContext.getBean(Student.class);
-        System.out.println(student.getName()+","+student.getAddress());
+        System.out.println(student.getName()+","+student.getAddress()+","+student.getNickName());
+
+        Environment environment = applicationContext.getEnvironment();
+        String nickname = environment.getProperty("nickname");
+        System.out.println(nickname);
     }
 }

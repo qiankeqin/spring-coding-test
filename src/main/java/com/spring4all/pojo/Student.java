@@ -15,6 +15,9 @@ public class Student {
     private String address;
     @Value("#{2 + 4}")
     private Integer age;
+    @Value("${nickname}")
+    private String nickName;
+
 
     public Student() {
     }
@@ -54,6 +57,14 @@ public class Student {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
     }
 
     @Override
