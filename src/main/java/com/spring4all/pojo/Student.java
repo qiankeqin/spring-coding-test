@@ -1,5 +1,7 @@
 package com.spring4all.pojo;
 
+import org.springframework.beans.factory.annotation.Value;
+
 /**
  * @program: spring-annotation
  * @description:
@@ -7,8 +9,12 @@ package com.spring4all.pojo;
  * @create: 2018-09-14 23:58
  **/
 public class Student {
+    @Value("hangzhou")
     private String name;
+    @Value("zhejiang")
     private String address;
+    @Value("#{2 + 4}")
+    private Integer age;
 
     public Student() {
     }
@@ -17,6 +23,14 @@ public class Student {
         this.name = name;
         this.address = address;
     }
+
+    public Student(String name, String address,Integer age) {
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
+
+
 
     public String getName() {
         return name;
@@ -34,11 +48,20 @@ public class Student {
         this.address = address;
     }
 
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
+                ", age=" + age +
                 '}';
     }
 }
