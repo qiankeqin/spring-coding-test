@@ -2,6 +2,7 @@ package com.spring4all.service;
 
 import com.spring4all.dao.StudentDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,10 +13,11 @@ import org.springframework.stereotype.Service;
  **/
 @Service
 public class StudentService {
-    @Autowired
-    private StudentDao studentDao;
+    @Autowired(required = false)
+    @Qualifier("studentDao")
+    private StudentDao studentDao2;
 
     public void print(){
-        System.out.println(studentDao);
+        System.out.println(studentDao2.getLable());
     }
 }

@@ -4,6 +4,7 @@ import com.spring4all.config.MainConfigOfAutowired;
 import com.spring4all.dao.StudentDao;
 import com.spring4all.service.StudentService;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -18,14 +19,13 @@ public class Autowired_IOCTest {
     public void test(){
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MainConfigOfAutowired.class);
         StudentService bean = annotationConfigApplicationContext.getBean(StudentService.class);
-        System.out.println(bean);
         bean.print();
+//
+//        StudentDao bean1 = annotationConfigApplicationContext.getBean(StudentDao.class);
+//        System.out.println(bean1);
 
-        StudentDao bean1 = annotationConfigApplicationContext.getBean(StudentDao.class);
-        System.out.println(bean1);
 
-
-        annotationConfigApplicationContext.close();
+//        annotationConfigApplicationContext.close();
 
     }
 }

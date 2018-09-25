@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbfe321-204f-470e-bb02-d3d1665e82cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/person.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfPropertyValues.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfPropertyValues.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Student.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Student.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/StudentConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/StudentConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/controller/StudentController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/StudentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Property_IOCTest.java" afterPath="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Property_IOCTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans.xml" afterPath="$PROJECT_DIR$/target/classes/beans.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/config/MainConfigOfPropertyValues.class" afterPath="$PROJECT_DIR$/target/classes/com/spring4all/config/MainConfigOfPropertyValues.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Student.class" afterPath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Student.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/StudentController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/StudentDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/StudentService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" afterPath="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +21,8 @@
       <file leaf-file-name="Property_IOCTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Property_IOCTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +46,13 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +60,8 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -85,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainConfigOfAutowired.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainConfigOfAutowired.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,15 +89,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +116,7 @@
       <file leaf-file-name="MainConfigOfPropertyValues.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfPropertyValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="180">
               <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -199,11 +191,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfPropertyValues.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java" />
       </list>
     </option>
   </component>
@@ -311,10 +303,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -428,6 +418,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -699,48 +691,48 @@
       <workItem from="1537160468851" duration="1184000" />
       <workItem from="1537357201901" duration="5516000" />
       <workItem from="1537419469191" duration="9797000" />
-      <workItem from="1537529204686" duration="18852000" />
+      <workItem from="1537529204686" duration="19193000" />
+      <workItem from="1537850899551" duration="1718000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Autowired_IOCTest - 2018.09.23 at 11h 58m 15s.xml">
-      <configuration name="Autowired_IOCTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Autowired_IOCTest_test - 2018.09.23 at 11h 53m 58s.xml">
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 06m 43s.xml">
       <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Autowired_IOCTest_test - 2018.09.23 at 12h 00m 11s.xml">
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 07m 15s.xml">
       <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Autowired_IOCTest_test - 2018.09.23 at 13h 13m 39s.xml">
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 07m 38s.xml">
       <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Property_IOCTest - 2018.09.23 at 10h 18m 12s.xml">
-      <configuration name="Property_IOCTest" configurationId="JUnit" />
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 08m 06s.xml">
+      <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Property_IOCTest_test - 2018.09.23 at 10h 23m 45s.xml">
-      <configuration name="Property_IOCTest.test" configurationId="JUnit" />
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 10m 11s.xml">
+      <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Property_IOCTest_test - 2018.09.23 at 10h 27m 50s.xml">
-      <configuration name="Property_IOCTest.test" configurationId="JUnit" />
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 14m 40s.xml">
+      <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Property_IOCTest_test - 2018.09.23 at 10h 43m 26s.xml">
-      <configuration name="Property_IOCTest.test" configurationId="JUnit" />
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 15m 14s.xml">
+      <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Property_IOCTest_test - 2018.09.23 at 10h 43m 58s.xml">
-      <configuration name="Property_IOCTest.test" configurationId="JUnit" />
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 16m 02s.xml">
+      <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Autowired_IOCTest_test - 2018.09.25 at 13h 17m 59s.xml">
+      <configuration name="Autowired_IOCTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Property_IOCTest_test - 2018.09.23 at 11h 57m 57s.xml">
       <configuration name="Property_IOCTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43570000" />
+    <option name="totallyTimeSpent" value="45629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1397" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -756,13 +748,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25387454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25756457" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3797954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3797954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -898,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,12 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,10 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#1464#1658#0" expanded="false" />
-            <element signature="e#1657#1658#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1532425809326" expanded="false" signature="0:104" ph="/.../" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="866" column="0" lean-forward="false" selection-start-line="866" selection-start-column="0" selection-end-line="866" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="760" column="0" lean-forward="false" selection-start-line="760" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,7 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="413" column="22" lean-forward="true" selection-start-line="413" selection-start-column="22" selection-end-line="413" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,10 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="314" column="35" lean-forward="false" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="35" />
-          <folding>
-            <element signature="e#13183#13726#0" expanded="false" />
-            <element signature="e#13725#13726#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,15 +1128,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Property_IOCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1184,7 +1145,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfPropertyValues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="180">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1194,27 +1155,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/dao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/dao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/person.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,22 +1182,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/person.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1249,19 +1193,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
           </folding>
         </state>
       </provider>

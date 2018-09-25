@@ -1,5 +1,7 @@
 package com.spring4all.config;
 
+import com.spring4all.dao.StudentDao;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -13,4 +15,19 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(value={"com.spring4all.dao","com.spring4all.service"})
 public class MainConfigOfAutowired {
+
+//    @Bean("studentDao2")
+    public StudentDao studentDao2(){
+        StudentDao dao =  new StudentDao();
+        dao.setLable("hello2");
+        return dao;
+    }
+
+
+//    @Bean("studentDao")
+    public StudentDao studentDao(){
+        StudentDao dao =  new StudentDao();
+        dao.setLable("hello");
+        return dao;
+    }
 }
