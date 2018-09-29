@@ -13,8 +13,9 @@ import org.springframework.stereotype.Service;
  **/
 @Service
 public class StudentService {
-    @Autowired(required = false)
-    @Qualifier("studentDao")
+//    @Autowired(required = false)
+//    @Qualifier("studentDao")
+    @Autowired
     private StudentDao studentDao2;
 
     public void print(){
