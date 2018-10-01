@@ -48,7 +48,7 @@ public class Main2Config {
 
 
     //使用FactoryBean
-    @Bean
+//    @Bean
     public ColorFactoryBean colorFactoryBean(){
         return new ColorFactoryBean();
     }

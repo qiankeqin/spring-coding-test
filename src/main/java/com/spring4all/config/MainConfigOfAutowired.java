@@ -1,6 +1,8 @@
 package com.spring4all.config;
 
 import com.spring4all.dao.StudentDao;
+import com.spring4all.pojo.Car;
+import com.spring4all.pojo.Color;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +16,7 @@ import org.springframework.context.annotation.Primary;
  * @create: 2018-09-23 10:50
  **/
 @Configuration
-@ComponentScan(value={"com.spring4all.dao","com.spring4all.service"})
+@ComponentScan(value={"com.spring4all.dao","com.spring4all.service","com.spring4all.pojo"})
 public class MainConfigOfAutowired {
 
     @Bean("studentDao2")
@@ -30,5 +32,13 @@ public class MainConfigOfAutowired {
         StudentDao dao =  new StudentDao();
         dao.setLable("hello");
         return dao;
+    }
+
+    @Bean(name="color2")
+    public Color color(Car car){
+        Color color = new Color();
+        color.setCar(car);
+        System.out.println("car 初始化");
+        return color;
     }
 }

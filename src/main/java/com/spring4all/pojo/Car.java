@@ -1,11 +1,14 @@
 package com.spring4all.pojo;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @program: spring-annotation
  * @description:
  * @author: qiankeqin
  * @create: 2018-09-20 20:13
  **/
+@Component
 public class Car {
 
     public Car(){
