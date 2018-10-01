@@ -1,4 +1,3 @@
-target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -16,6 +15,7 @@ target/
 *.ipr
 .mvn
 target/
+.idea/workspace.xml
 
 ### NetBeans ###
 nbproject/private/

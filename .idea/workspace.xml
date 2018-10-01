@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbfe321-204f-470e-bb02-d3d1665e82cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Boss.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/spring-annotation.iml" afterPath="$PROJECT_DIR$/spring-annotation.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/config/MainConfigOfAutowired.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Car.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Car.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Color.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Color.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Red.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Red.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring4all/scope/Main2Config.java" afterPath="$PROJECT_DIR$/src/main/java/com/spring4all/scope/Main2Config.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" afterPath="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Car.class" afterPath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Car.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Color.class" afterPath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Color.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Red.class" afterPath="$PROJECT_DIR$/target/classes/com/spring4all/pojo/Red.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring4all/scope/Main2Config.class" afterPath="$PROJECT_DIR$/target/classes/com/spring4all/scope/Main2Config.class" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,14 +71,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state relative-caret-position="418">
+              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -105,22 +103,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1354#1355#0" expanded="true" />
                 <element signature="e#1399#1400#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boss.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Boss.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/imort/MyImportBeanRegistry.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/person.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Student.java" />
         <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
@@ -220,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/main/test/java/com/spring4all/test/Autowired_IOCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Red.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -736,7 +718,7 @@
       <workItem from="1537529204686" duration="19193000" />
       <workItem from="1537850899551" duration="3056000" />
       <workItem from="1538181307292" duration="1203000" />
-      <workItem from="1538361528325" duration="6402000" />
+      <workItem from="1538361528325" duration="6511000" />
     </task>
     <servers />
   </component>
@@ -773,7 +755,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54572000" />
+    <option name="totallyTimeSpent" value="54681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1397" height="877" extended-state="6" />
@@ -790,7 +772,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -799,7 +781,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3196931" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3196931" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1040,13 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring4all/pojo/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -1281,8 +1256,16 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state relative-caret-position="418">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
       </provider>
